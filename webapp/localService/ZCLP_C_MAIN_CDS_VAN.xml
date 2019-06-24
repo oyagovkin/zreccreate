@@ -1,0 +1,81 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+	<edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value"><edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/></edmx:Reference>
+	<edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_UI',Version='0001',SAP__Origin='LOCAL')/$value"><edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/></edmx:Reference>
+	<edmx:Reference
+		Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value"><edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/></edmx:Reference>
+	<edmx:Reference Uri="../../../sap/zclp_c_main_cds/$metadata"><edmx:Include Namespace="ZCLP_C_MAIN_CDS" Alias="SAP"/></edmx:Reference>
+	<edmx:DataServices>
+		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="zclp_c_main_cds_van.v1">
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/id"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/displ_txt"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/partner"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/name1"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/bktxt"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/zuonr"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/blart"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/type_acc"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/idpos"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/koart"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/umskz"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/budat"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/curpd"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/gkont"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/waers"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/lcur"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/grp_curr"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/buzei"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/bilkt"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/bilkt_txt"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/displ"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/hkont_cost"><Annotation Term="Common.SemanticObject" String="GLAccount"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/bukrs"><Annotation Term="Common.SemanticObject" String="CompanyCode"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/gjahr"><Annotation Term="Common.SemanticObject" String="FiscalYear"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType/belnr"><Annotation Term="Common.SemanticObject" String="AccountingDocument"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_ITEMSType">
+				<Annotation Term="UI.LineItem">
+					<Collection>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="bukrs"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="gjahr"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="belnr"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="buzei"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="hkont_cost"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="hkont_cost_txt"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="sgtxt"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="bktxt"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="waers"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="amount"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/Low"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="lcur"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/Low"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="lc_amount"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/Low"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="usd_ammount000"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/Low"/></Record>
+					</Collection>
+				</Annotation>
+			</Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_MAINType/id"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_MAINType/waers"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_MAINType/lcur"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_MAINType/grp_curr"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_MAINType/type"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_MAINType/perio"><Annotation Term="Common.FieldControl" EnumMember="Common.FieldControlType/Hidden"/><Annotation Term="UI.Hidden"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_MAINType/displ"><Annotation Term="Common.SemanticObject" String="GLAccount"/></Annotations>
+			<Annotations Target="ZCLP_C_MAIN_CDS.ZCLP_C_MAINType">
+				<Annotation Term="UI.LineItem">
+					<Collection>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="bukrs"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="bilkt"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="bilkt_txt"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="displ"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="displ_txt"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="partner"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="name1"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="waers"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="amount"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/Low"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="lcur"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/Low"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="lc_amount"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/Low"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="usd_ammount000"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/Low"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String=""/><PropertyValue Property="Value" Path="categ"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+					</Collection>
+				</Annotation>
+			</Annotations>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>
